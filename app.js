@@ -17,9 +17,9 @@ passEl.addEventListener('input', () => {
             strgEl.style.color = 'yellow';
         }
         else{
-            passEl.style.borderColor = 'green';
+            passEl.style.borderColor = 'rgb(4, 185, 4)';
             strgEl.innerHTML = 'strong';
-            strgEl.style.color = 'green';
+            strgEl.style.color = 'rgb(4, 185, 4)';
         }
     }
     else{
